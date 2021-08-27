@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: #08d170;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #08d170;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+
+label{
+    padding: 0.5rem;
+}
+
+input{
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+h1{
+    color: #244042;
+}
+
+#check-number {
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    background: #244042;
+    color: white;
+    font-size: 18px;
+    width: 50%;
+    border-color: #244042;
+    border-width: medium;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    
+}
+#out-put {
+    color: red;
+    padding-top: 0.5rem;
+}
