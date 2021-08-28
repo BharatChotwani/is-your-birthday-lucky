@@ -42,7 +42,28 @@ h1{
     cursor: pointer;
     
 }
+
 #out-put {
     color: red;
     padding-top: 0.5rem;
+}
+
+.list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.footer {
+    min-height: 100px;
+    background-color: white;
+    padding: 4rem 1rem;
+    text-align: center;
+    color: #244042;
+    border-top-right-radius: 1rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 1rem;
 }
