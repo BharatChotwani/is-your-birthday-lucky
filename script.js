@@ -24,12 +24,18 @@ function calculateSum(birthDate){
 }
 
 function compareValues(sum, luckyNr){
-if(sum % luckyNr === 0){
+if(luckyNr > 0) {
+    if(sum % luckyNr === 0){
     outPut.innerText = "Yaay! your birthday is lucky 🤩🥳🎉"
 }
 else{
     outPut.innerText = "Sorry! your birthday isn't lucky 🙁"
 }
+} else{
+    outPut.innerText = "Please Enter Valid Lucky Number 🙁"
+    outPut.style.backgroundColor = "black";
+}
+
 }
 
 
