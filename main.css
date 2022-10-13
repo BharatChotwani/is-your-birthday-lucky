@@ -64,6 +64,7 @@ h1{
     text-align: center;
     color: #244042;
     border-top-right-radius: 1rem;
+    position: sticky;
 }
 
 .footer .footer-header {
